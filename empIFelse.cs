@@ -7,8 +7,15 @@ namespace ConsoleApp10
         static void Main(string[] args)
         {
             Random num = new Random();
-            int genNum = num.Next(0, 1);
-            Console.WriteLine(genNum);
+            int genNum = num.Next(0, 2);
+           if (genNum = 1)
+            {
+               Console.WriteLine("Emp is present");
+            }
+            else
+            {
+                Console.WriteLine("Emp is absent");
+            }
         }
     }
 }
